@@ -1,4 +1,4 @@
-// ignore_for_file: avoid_single_cascade_in_expression_statements, unnecessary_getters_setters, unused_local_variable
+// ignore_for_file: avoid_single_cascade_in_expression_statements, unnecessary_getters_setters, unused_local_variable, unused_element
 
 int globalScopeVar = 0;
 
@@ -19,6 +19,14 @@ class BagB extends ForOveridding {
   void doSomeThing() {
     globalScopeVar = 3;
   }
+
+  // expect_lint: unnecessary_mut_infect
+  void incorrectMut() {}
+
+  // expect_lint: unnecessary_mut_infect
+  void incorrect2Mut(BagA functionParamIsNotMut) {
+    print(functionParamIsNotMut);
+  }
 }
 
 class BagA {
@@ -38,6 +46,15 @@ class BagA {
   }
 
   void create(String path) {}
+}
+
+/* This section shows that items that don't do any mutating should not be marked as mut */
+// expect_lint: unnecessary_mut_infect
+void incorrectlyMarkedMut() {}
+
+// expect_lint: unnecessary_mut_infect
+void incorrectlyMarked2Mut(BagA methodParamIsNotMut) {
+  print(methodParamIsNotMut);
 }
 
 /* This section shows that exemptions should be made for certain conditions */
@@ -100,6 +117,7 @@ int dontThrowForAssignmentOnConstructorCascade() {
   return 0;
 }
 
+// expect_lint: unnecessary_mut_infect
 void dummyMut() {}
 
 // expect_lint: mut_infect
@@ -120,6 +138,7 @@ void isNotMarked() {
 }
 
 // FYI(nf, 09/08/23): Should not be marked for errors because its marked mut
+// expect_lint: unnecessary_mut_infect
 void isMarkedMut() {}
 
 // FYI(nf, 09/08/23): Should be marked for Mut because it mutates an out of scope
@@ -177,7 +196,6 @@ void doesNotMutAnything() {
   inner();
 }
 
-// FYI(nf, 09/08/23): Should mark a as mut, simple
 // expect_lint: mut_param
 void markThisToo(BagA a) {
   a.i = 1;
