@@ -1,4 +1,4 @@
-// ignore_for_file: avoid_single_cascade_in_expression_statements
+// ignore_for_file: avoid_single_cascade_in_expression_statements, unnecessary_getters_setters
 
 int globalScopeVar = 0;
 
@@ -23,12 +23,46 @@ class BagB extends ForOveridding {
 
 class BagA {
   int i = 0;
+  List<String> strings = [];
   BagB b = BagB();
 
   // expect_lint: mut_out_of_scope
   void shouldMarkInBagA() {
     globalScopeVar = 1;
   }
+}
+
+/* This section shows that exemptions should be made for certain conditions */
+abstract class MockWidget {
+  int build();
+}
+
+class ImplMockWidget extends MockWidget {
+  /* Shows that override method should not be considered */
+  @override
+  int build() {
+    globalScopeVar = 2;
+    return 0;
+  }
+
+  /* Shows that setters should not be considered */
+  int get withSetter => globalScopeVar;
+  set withSetter(int i) => globalScopeVar = i;
+}
+
+/* This section shows that reassignment to the variable at a depth of n=1 is fine, but reasignment to its inner items is not */
+void reAssignDepth1(BagA bagADepth1) {
+  bagADepth1 = BagA();
+}
+
+// expect_lint: mut_param
+void reAssignDepth2List(BagA bagADepth2List) {
+  bagADepth2List.strings = <String>["dummy"];
+}
+
+// expect_lint: mut_param
+void reAssignDepth2IntMut(BagA bagADepth2Int) {
+  bagADepth2Int.i = 2;
 }
 
 void dummyMut() {}
@@ -45,7 +79,6 @@ void dontMarkThisDummyMut() {
 // FYI(nf, 09/08/23): This should not be marked for any errors because it modifies nothing and calls no mut functions
 void isInconsequential() {}
 
-// FYI(nf, 09/08/23): This should say it needs to be named `Mut`
 // expect_lint: mut_infect
 void isNotMarked() {
   isMarkedMut();
