@@ -99,6 +99,7 @@ void doesNotMutAnything() {
 }
 
 // FYI(nf, 09/08/23): Should mark a as mut, simple
+// expect_lint: mut_param
 void markThisToo(BagA a) {
   a.i = 1;
 }
@@ -107,6 +108,7 @@ void dontMarkThisToo(BagA aMut) {
   aMut.i = 1;
 }
 
+// expect_lint: mut_param
 void markThisTooMut(BagA a) {
   a.i = 2;
 }
