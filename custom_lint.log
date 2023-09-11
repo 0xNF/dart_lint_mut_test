@@ -15215,3 +15215,227 @@ The Dart VM service is listening on http://127.0.0.1:53062/8me_hR2RvxU=/
 The Dart DevTools debugger and profiler is available at: http://127.0.0.1:53062/8me_hR2RvxU=/devtools?uri=ws://127.0.0.1:53062/8me_hR2RvxU=/ws
 The Dart VM service is listening on http://127.0.0.1:53071/zyzH89dn4i8=/
 The Dart DevTools debugger and profiler is available at: http://127.0.0.1:53071/zyzH89dn4i8=/devtools?uri=ws://127.0.0.1:53071/zyzH89dn4i8=/ws
+The Dart VM service is listening on http://127.0.0.1:54923/MhF8OnCTGwk=/
+The Dart DevTools debugger and profiler is available at: http://127.0.0.1:54923/MhF8OnCTGwk=/devtools?uri=ws://127.0.0.1:54923/MhF8OnCTGwk=/ws
+The Dart VM service is listening on http://127.0.0.1:54936/2EU05uFJssk=/
+The Dart DevTools debugger and profiler is available at: http://127.0.0.1:54936/2EU05uFJssk=/devtools?uri=ws://127.0.0.1:54936/2EU05uFJssk=/ws
+[custom_lint] 2023-09-11T11:32:33.919619 ../../../../Documents/nickdocs/projects/experiments/lint_mut_infect/lib/lint_mut_infect.dart:505:112: Warning: Operand of null-aware operation '?.' has type 'CascadeExpression' which excludes null.
+[custom_lint] 2023-09-11T11:32:33.919619  - 'CascadeExpression' is from 'package:analyzer/src/dart/ast/ast.dart' ('../../Pub/Cache/hosted/pub.dev/analyzer-6.2.0/lib/src/dart/ast/ast.dart').
+[custom_lint] 2023-09-11T11:32:33.919619           if (!nodeIsMarkedMut(parentScope.scopeSource) && !isExemptForMutInfect(parentScope.scopeSource!) && (node?.parent? is Var)) {
+[custom_lint] 2023-09-11T11:32:33.919619                                                                                                                ^
+[custom_lint] 2023-09-11T11:32:33.919619
+[custom_lint] 2023-09-11T11:32:33.921536
+[custom_lint] 2023-09-11T11:32:33.921536
+[custom_lint] 2023-09-11T11:32:33.921536
+[custom_lint] 2023-09-11T11:33:04.489220 ../../../../Documents/nickdocs/projects/experiments/lint_mut_infect/lib/lint_mut_infect.dart:505:112: Warning: Operand of null-aware operation '?.' has type 'CascadeExpression' which excludes null.
+[custom_lint] 2023-09-11T11:33:04.489220  - 'CascadeExpression' is from 'package:analyzer/src/dart/ast/ast.dart' ('../../Pub/Cache/hosted/pub.dev/analyzer-6.2.0/lib/src/dart/ast/ast.dart').
+[custom_lint] 2023-09-11T11:33:04.489220           if (!nodeIsMarkedMut(parentScope.scopeSource) && !isExemptForMutInfect(parentScope.scopeSource!) && (node?.parent?)) {
+[custom_lint] 2023-09-11T11:33:04.489220                                                                                                                ^
+[custom_lint] 2023-09-11T11:33:04.489220
+[custom_lint] 2023-09-11T11:33:04.489220
+[custom_lint] 2023-09-11T11:33:09.452458 ../../../../Documents/nickdocs/projects/experiments/lint_mut_infect/lib/lint_mut_infect.dart:505:112: Warning: Operand of null-aware operation '?.' has type 'CascadeExpression' which excludes null.
+[custom_lint] 2023-09-11T11:33:09.452458  - 'CascadeExpression' is from 'package:analyzer/src/dart/ast/ast.dart' ('../../Pub/Cache/hosted/pub.dev/analyzer-6.2.0/lib/src/dart/ast/ast.dart').
+[custom_lint] 2023-09-11T11:33:09.452458           if (!nodeIsMarkedMut(parentScope.scopeSource) && !isExemptForMutInfect(parentScope.scopeSource!) && (node?.p)) {
+[custom_lint] 2023-09-11T11:33:09.452458                                                                                                                ^
+[custom_lint] 2023-09-11T11:33:09.452458
+[custom_lint] 2023-09-11T11:33:09.452458
+[custom_lint] 2023-09-11T11:33:19.124190 ../../../../Documents/nickdocs/projects/experiments/lint_mut_infect/lib/lint_mut_infect.dart:505:112: Warning: Operand of null-aware operation '?.' has type 'CascadeExpression' which excludes null.
+[custom_lint] 2023-09-11T11:33:19.124190  - 'CascadeExpression' is from 'package:analyzer/src/dart/ast/ast.dart' ('../../Pub/Cache/hosted/pub.dev/analyzer-6.2.0/lib/src/dart/ast/ast.dart').
+[custom_lint] 2023-09-11T11:33:19.124190           if (!nodeIsMarkedMut(parentScope.scopeSource) && !isExemptForMutInfect(parentScope.scopeSource!) && (node?.parent)) {
+[custom_lint] 2023-09-11T11:33:19.124190                                                                                                                ^
+[custom_lint] 2023-09-11T11:33:19.124190
+[custom_lint] 2023-09-11T11:33:19.124190
+[custom_lint] 2023-09-11T11:33:22.473074 ../../../../Documents/nickdocs/projects/experiments/lint_mut_infect/lib/lint_mut_infect.dart:505:112: Warning: Operand of null-aware operation '?.' has type 'CascadeExpression' which excludes null.
+[custom_lint] 2023-09-11T11:33:22.473074  - 'CascadeExpression' is from 'package:analyzer/src/dart/ast/ast.dart' ('../../Pub/Cache/hosted/pub.dev/analyzer-6.2.0/lib/src/dart/ast/ast.dart').
+[custom_lint] 2023-09-11T11:33:22.473074           if (!nodeIsMarkedMut(parentScope.scopeSource) && !isExemptForMutInfect(parentScope.scopeSource!) && (node?.parent is Va)) {
+[custom_lint] 2023-09-11T11:33:22.473074                                                                                                                ^
+[custom_lint] 2023-09-11T11:33:22.473074
+[custom_lint] 2023-09-11T11:33:22.473074
+[custom_lint] 2023-09-11T11:33:24.247346 ../../../../Documents/nickdocs/projects/experiments/lint_mut_infect/lib/lint_mut_infect.dart:505:112: Warning: Operand of null-aware operation '?.' has type 'CascadeExpression' which excludes null.
+[custom_lint] 2023-09-11T11:33:24.247346  - 'CascadeExpression' is from 'package:analyzer/src/dart/ast/ast.dart' ('../../Pub/Cache/hosted/pub.dev/analyzer-6.2.0/lib/src/dart/ast/ast.dart').
+[custom_lint] 2023-09-11T11:33:24.247346           if (!nodeIsMarkedMut(parentScope.scopeSource) && !isExemptForMutInfect(parentScope.scopeSource!) && (node?.parent is VariableDeclaration)) {
+[custom_lint] 2023-09-11T11:33:24.247346                                                                                                                ^
+[custom_lint] 2023-09-11T11:33:24.247346
+[custom_lint] 2023-09-11T11:33:24.247346
+[custom_lint] 2023-09-11T11:33:25.977070 ../../../../Documents/nickdocs/projects/experiments/lint_mut_infect/lib/lint_mut_infect.dart:505:112: Warning: Operand of null-aware operation '?.' has type 'CascadeExpression' which excludes null.
+[custom_lint] 2023-09-11T11:33:25.977070  - 'CascadeExpression' is from 'package:analyzer/src/dart/ast/ast.dart' ('../../Pub/Cache/hosted/pub.dev/analyzer-6.2.0/lib/src/dart/ast/ast.dart').
+[custom_lint] 2023-09-11T11:33:25.977070           if (!nodeIsMarkedMut(parentScope.scopeSource) && !isExemptForMutInfect(parentScope.scopeSource!) && (node?.parent is VariableDeclaration)) {
+[custom_lint] 2023-09-11T11:33:25.977070                                                                                                                ^
+[custom_lint] 2023-09-11T11:33:25.977070
+[custom_lint] 2023-09-11T11:33:25.978057
+[custom_lint] 2023-09-11T11:33:25.978057
+[custom_lint] 2023-09-11T11:33:25.978057
+The Dart VM service is listening on http://127.0.0.1:56629/Of-WpnzhvW4=/
+The Dart DevTools debugger and profiler is available at: http://127.0.0.1:56629/Of-WpnzhvW4=/devtools?uri=ws://127.0.0.1:56629/Of-WpnzhvW4=/ws
+The Dart VM service is listening on http://127.0.0.1:56641/nOCJFnJ4x_k=/
+The Dart DevTools debugger and profiler is available at: http://127.0.0.1:56641/nOCJFnJ4x_k=/devtools?uri=ws://127.0.0.1:56641/nOCJFnJ4x_k=/ws
+The Dart VM service is listening on http://127.0.0.1:56869/yoP7dpE3PpA=/
+The Dart DevTools debugger and profiler is available at: http://127.0.0.1:56869/yoP7dpE3PpA=/devtools?uri=ws://127.0.0.1:56869/yoP7dpE3PpA=/ws
+The Dart VM service is listening on http://127.0.0.1:56878/lxyQMqaJAFY=/
+The Dart DevTools debugger and profiler is available at: http://127.0.0.1:56878/lxyQMqaJAFY=/devtools?uri=ws://127.0.0.1:56878/lxyQMqaJAFY=/ws
+The Dart VM service is listening on http://127.0.0.1:57634/TNeo1yT-I5I=/
+The Dart DevTools debugger and profiler is available at: http://127.0.0.1:57634/TNeo1yT-I5I=/devtools?uri=ws://127.0.0.1:57634/TNeo1yT-I5I=/ws
+The Dart VM service is listening on http://127.0.0.1:57645/7MeTQy-a_KI=/
+The Dart DevTools debugger and profiler is available at: http://127.0.0.1:57645/7MeTQy-a_KI=/devtools?uri=ws://127.0.0.1:57645/7MeTQy-a_KI=/ws
+The Dart VM service is listening on http://127.0.0.1:57755/Q2au9BRpgK0=/
+The Dart DevTools debugger and profiler is available at: http://127.0.0.1:57755/Q2au9BRpgK0=/devtools?uri=ws://127.0.0.1:57755/Q2au9BRpgK0=/ws
+The Dart VM service is listening on http://127.0.0.1:57768/XvM2Otf2S2o=/
+The Dart DevTools debugger and profiler is available at: http://127.0.0.1:57768/XvM2Otf2S2o=/devtools?uri=ws://127.0.0.1:57768/XvM2Otf2S2o=/ws
+The Dart VM service is listening on http://127.0.0.1:58304/6ipulr5uXoY=/
+The Dart DevTools debugger and profiler is available at: http://127.0.0.1:58304/6ipulr5uXoY=/devtools?uri=ws://127.0.0.1:58304/6ipulr5uXoY=/ws
+The Dart VM service is listening on http://127.0.0.1:58313/yvbcCwjJfCY=/
+The Dart DevTools debugger and profiler is available at: http://127.0.0.1:58313/yvbcCwjJfCY=/devtools?uri=ws://127.0.0.1:58313/yvbcCwjJfCY=/ws
+[mut_infect] 2023-09-11T12:30:31.103124 NODE META NOT EMPTY
+[mut_infect] 2023-09-11T12:30:31.107859 @override
+[mut_infect] 2023-09-11T12:30:31.117773 NODE META NOT EMPTY
+[mut_infect] 2023-09-11T12:30:31.128115 @override
+[mut_infect] 2023-09-11T12:32:52.294804 NODE META NOT EMPTY
+[mut_infect] 2023-09-11T12:32:52.296803 NODE META NOT EMPTY
+[mut_infect] 2023-09-11T12:33:33.990147 NODE META NOT EMPTY
+[mut_infect] 2023-09-11T12:33:33.992148 elem toString(): @override
+[mut_infect] 2023-09-11T12:33:34.004146 elem name: override
+[mut_infect] 2023-09-11T12:33:34.012150 NODE META NOT EMPTY
+[mut_infect] 2023-09-11T12:33:34.024736 elem toString(): @override
+[mut_infect] 2023-09-11T12:33:34.046245 elem name: override
+[mut_infect] 2023-09-11T12:33:50.715466 NODE META NOT EMPTY
+[mut_infect] 2023-09-11T12:33:50.717467 elem toString(): @override
+[mut_infect] 2023-09-11T12:33:50.733473 elem name.toString(): override
+[mut_infect] 2023-09-11T12:33:50.744474 elem name.name: override
+[mut_infect] 2023-09-11T12:33:50.760991 NODE META NOT EMPTY
+[mut_infect] 2023-09-11T12:33:50.776991 elem toString(): @override
+[mut_infect] 2023-09-11T12:33:50.790996 elem name.toString(): override
+[mut_infect] 2023-09-11T12:33:50.800997 elem name.name: override
+[mut_infect] 2023-09-11T12:35:25.082077 NODE META NOT EMPTY
+[mut_infect] 2023-09-11T12:35:25.084078 elem toString(): @override
+[mut_infect] 2023-09-11T12:35:25.095077 elem name.toString(): override
+[mut_infect] 2023-09-11T12:35:25.126596 elem name.name: override
+[mut_infect] 2023-09-11T12:35:25.135595 NODE META NOT EMPTY
+[mut_infect] 2023-09-11T12:35:25.145595 elem toString(): @override
+[mut_infect] 2023-09-11T12:35:25.154595 elem name.toString(): override
+[mut_infect] 2023-09-11T12:35:25.168595 elem name.name: override
+[mut_infect] 2023-09-11T13:48:07.864278 NODE META NOT EMPTY
+[mut_infect] 2023-09-11T13:48:07.865283 elem toString(): @override
+[mut_infect] 2023-09-11T13:48:07.877279 elem name.toString(): override
+[mut_infect] 2023-09-11T13:48:07.886282 elem name.name: override
+[mut_infect] 2023-09-11T13:48:07.893279 NODE META NOT EMPTY
+[mut_infect] 2023-09-11T13:48:07.900279 elem toString(): @override
+[mut_infect] 2023-09-11T13:48:07.910279 elem name.toString(): override
+[mut_infect] 2023-09-11T13:48:07.929289 elem name.name: override
+[mut_infect] 2023-09-11T13:49:01.016477 NODE META NOT EMPTY
+[mut_infect] 2023-09-11T13:49:01.019481 elem toString(): @override
+[mut_infect] 2023-09-11T13:49:01.032479 elem name.toString(): override
+[mut_infect] 2023-09-11T13:49:01.044479 elem name.name: override
+[mut_infect] 2023-09-11T13:49:01.055477 NODE META NOT EMPTY
+[mut_infect] 2023-09-11T13:49:01.065479 elem toString(): @override
+[mut_infect] 2023-09-11T13:49:01.075478 elem name.toString(): override
+[mut_infect] 2023-09-11T13:49:01.087484 elem name.name: override
+[mut_infect] 2023-09-11T13:49:52.082148 NODE META NOT EMPTY
+[mut_infect] 2023-09-11T13:49:52.084144 elem toString(): @override
+[mut_infect] 2023-09-11T13:49:52.097145 elem name.toString(): override
+[mut_infect] 2023-09-11T13:49:52.106144 elem name.name: override
+[mut_infect] 2023-09-11T13:49:52.115145 NODE META NOT EMPTY
+[mut_infect] 2023-09-11T13:49:52.124229 elem toString(): @override
+[mut_infect] 2023-09-11T13:49:52.133148 elem name.toString(): override
+[mut_infect] 2023-09-11T13:49:52.141143 elem name.name: override
+[mut_infect] 2023-09-11T13:49:58.169118 NODE META NOT EMPTY
+[mut_infect] 2023-09-11T13:49:58.170117 elem toString(): @override
+[mut_infect] 2023-09-11T13:49:58.179118 elem name.toString(): override
+[mut_infect] 2023-09-11T13:49:58.189635 elem name.name: override
+[mut_infect] 2023-09-11T13:49:58.200634 NODE META NOT EMPTY
+[mut_infect] 2023-09-11T13:49:58.208633 elem toString(): @override
+[mut_infect] 2023-09-11T13:49:58.216633 elem name.toString(): override
+[mut_infect] 2023-09-11T13:49:58.225633 elem name.name: override
+[mut_infect] 2023-09-11T13:50:03.375613 NODE META NOT EMPTY
+[mut_infect] 2023-09-11T13:50:03.376133 elem toString(): @override
+[mut_infect] 2023-09-11T13:50:03.383901 elem name.toString(): override
+[mut_infect] 2023-09-11T13:50:03.395415 elem name.name: override
+[mut_infect] 2023-09-11T13:50:03.404418 NODE META NOT EMPTY
+[mut_infect] 2023-09-11T13:50:03.412414 elem toString(): @override
+[mut_infect] 2023-09-11T13:50:03.420417 elem name.toString(): override
+[mut_infect] 2023-09-11T13:50:03.428415 elem name.name: override
+[mut_infect] 2023-09-11T13:50:20.252806 NODE META NOT EMPTY
+[mut_infect] 2023-09-11T13:50:20.254813 elem toString(): @override
+[mut_infect] 2023-09-11T13:50:20.263809 elem name.toString(): override
+[mut_infect] 2023-09-11T13:50:20.271825 elem name.name: override
+[mut_infect] 2023-09-11T13:50:20.280809 NODE META NOT EMPTY
+[mut_infect] 2023-09-11T13:50:20.287813 elem toString(): @override
+[mut_infect] 2023-09-11T13:50:20.294814 elem name.toString(): override
+[mut_infect] 2023-09-11T13:50:20.303327 elem name.name: override
+[mut_infect] 2023-09-11T13:50:20.313328 NODE META NOT EMPTY
+[mut_infect] 2023-09-11T13:50:20.319346 elem toString(): @override
+[mut_infect] 2023-09-11T13:50:20.327328 elem name.toString(): override
+[mut_infect] 2023-09-11T13:50:20.333328 elem name.name: override
+[mut_infect] 2023-09-11T13:50:20.340333 NODE META NOT EMPTY
+[mut_infect] 2023-09-11T13:50:20.346328 elem toString(): @override
+[mut_infect] 2023-09-11T13:50:20.351415 elem name.toString(): override
+[mut_infect] 2023-09-11T13:50:20.351415 elem name.name: override
+[mut_infect] 2023-09-11T13:50:23.707404 NODE META NOT EMPTY
+[mut_infect] 2023-09-11T13:50:23.709403 elem toString(): @override
+[mut_infect] 2023-09-11T13:50:23.716405 elem name.toString(): override
+[mut_infect] 2023-09-11T13:50:23.729414 elem name.name: override
+[mut_infect] 2023-09-11T13:50:23.742404 NODE META NOT EMPTY
+[mut_infect] 2023-09-11T13:50:23.749403 elem toString(): @override
+[mut_infect] 2023-09-11T13:50:23.758402 elem name.toString(): override
+[mut_infect] 2023-09-11T13:50:23.765403 elem name.name: override
+[mut_infect] 2023-09-11T13:50:41.039409 NODE META NOT EMPTY
+[mut_infect] 2023-09-11T13:50:41.040409 elem toString(): @override
+[mut_infect] 2023-09-11T13:50:41.049412 elem name.toString(): override
+[mut_infect] 2023-09-11T13:50:41.056409 elem name.name: override
+[mut_infect] 2023-09-11T13:50:41.066415 NODE META NOT EMPTY
+[mut_infect] 2023-09-11T13:50:41.073410 elem toString(): @override
+[mut_infect] 2023-09-11T13:50:41.080410 elem name.toString(): override
+[mut_infect] 2023-09-11T13:50:41.089413 elem name.name: override
+[custom_lint] 2023-09-11T13:50:45.098546 ../../../../Documents/nickdocs/projects/experiments/lint_mut_infect/lib/lint_mut_infect.dart:585:103: Warning: Operand of null-aware operation '!' has type 'Scope' which excludes null.
+[custom_lint] 2023-09-11T13:50:45.098546  - 'Scope' is from 'package:lint_mut_infect/lint_mut_infect.dart' ('../../../../Documents/nickdocs/projects/experiments/lint_mut_infect/lib/lint_mut_infect.dart').
+[custom_lint] 2023-09-11T13:50:45.098546       if (nodeIsMarkedMut(node) && !nodeIsMarkedMut(parentScope.scopeSource) && !isExemptForMutInfect(parentScope!)) {
+[custom_lint] 2023-09-11T13:50:45.098546                                                                                                       ^
+[custom_lint] 2023-09-11T13:50:45.098546
+[custom_lint] 2023-09-11T13:50:45.098546
+[mut_infect] 2023-09-11T13:50:53.101912 NODE META NOT EMPTY
+[mut_infect] 2023-09-11T13:50:53.103911 elem toString(): @override
+[mut_infect] 2023-09-11T13:50:53.113919 elem name.toString(): override
+[mut_infect] 2023-09-11T13:50:53.122917 elem name.name: override
+[mut_infect] 2023-09-11T13:50:53.134431 NODE META NOT EMPTY
+[mut_infect] 2023-09-11T13:50:53.144440 elem toString(): @override
+[mut_infect] 2023-09-11T13:50:53.154430 elem name.toString(): override
+[mut_infect] 2023-09-11T13:50:53.163431 elem name.name: override
+[mut_infect] 2023-09-11T13:51:00.055614 NODE META NOT EMPTY
+[mut_infect] 2023-09-11T13:51:00.060622 elem toString(): @override
+[mut_infect] 2023-09-11T13:51:00.145979 elem name.toString(): override
+[mut_infect] 2023-09-11T13:51:00.174854 elem name.name: override
+[mut_infect] 2023-09-11T13:51:00.286638 NODE META NOT EMPTY
+[mut_infect] 2023-09-11T13:51:00.316659 elem toString(): @override
+[mut_infect] 2023-09-11T13:51:00.358624 elem name.toString(): override
+[mut_infect] 2023-09-11T13:51:00.372631 elem name.name: override
+[mut_infect] 2023-09-11T13:51:05.542790 NODE META NOT EMPTY
+[mut_infect] 2023-09-11T13:51:05.545790 elem toString(): @override
+[mut_infect] 2023-09-11T13:51:05.556790 elem name.toString(): override
+[mut_infect] 2023-09-11T13:51:05.567792 elem name.name: override
+[mut_infect] 2023-09-11T13:51:05.582788 NODE META NOT EMPTY
+[mut_infect] 2023-09-11T13:51:05.591789 elem toString(): @override
+[mut_infect] 2023-09-11T13:51:05.601790 elem name.toString(): override
+[mut_infect] 2023-09-11T13:51:05.618809 elem name.name: override
+[mut_infect] 2023-09-11T13:51:07.898031 NODE META NOT EMPTY
+[mut_infect] 2023-09-11T13:51:07.898031 elem toString(): @override
+[mut_infect] 2023-09-11T13:51:07.908039 elem name.toString(): override
+[mut_infect] 2023-09-11T13:51:07.923036 elem name.name: override
+[mut_infect] 2023-09-11T13:51:07.939550 NODE META NOT EMPTY
+[mut_infect] 2023-09-11T13:51:07.948549 elem toString(): @override
+[mut_infect] 2023-09-11T13:51:07.957549 elem name.toString(): override
+[mut_infect] 2023-09-11T13:51:07.968552 elem name.name: override
+[mut_infect] 2023-09-11T13:51:12.934345 NODE META NOT EMPTY
+[mut_infect] 2023-09-11T13:51:12.935352 elem toString(): @override
+[mut_infect] 2023-09-11T13:51:12.946347 elem name.toString(): override
+[mut_infect] 2023-09-11T13:51:12.956350 elem name.name: override
+[mut_infect] 2023-09-11T13:51:12.966346 NODE META NOT EMPTY
+[mut_infect] 2023-09-11T13:51:12.977353 elem toString(): @override
+[mut_infect] 2023-09-11T13:51:12.986346 elem name.toString(): override
+[mut_infect] 2023-09-11T13:51:12.994348 elem name.name: override
+[mut_infect] 2023-09-11T13:51:16.992542 NODE META NOT EMPTY
+[mut_infect] 2023-09-11T13:51:16.993541 elem toString(): @override
+[mut_infect] 2023-09-11T13:51:17.006540 elem name.toString(): override
+[mut_infect] 2023-09-11T13:51:17.017542 elem name.name: override
+[mut_infect] 2023-09-11T13:51:17.026548 NODE META NOT EMPTY
+[mut_infect] 2023-09-11T13:51:17.036063 elem toString(): @override
+[mut_infect] 2023-09-11T13:51:17.046061 elem name.toString(): override
+[mut_infect] 2023-09-11T13:51:17.060063 elem name.name: override

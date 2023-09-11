@@ -1,4 +1,4 @@
-// ignore_for_file: avoid_single_cascade_in_expression_statements, unnecessary_getters_setters
+// ignore_for_file: avoid_single_cascade_in_expression_statements, unnecessary_getters_setters, unused_local_variable
 
 int globalScopeVar = 0;
 
@@ -22,14 +22,22 @@ class BagB extends ForOveridding {
 }
 
 class BagA {
-  int i = 0;
-  List<String> strings = [];
+  int i;
+  List<String> strings;
   BagB b = BagB();
+
+  BagA._({this.i = 0, this.strings = const <String>[]});
+
+  factory BagA.sample(int i) {
+    return BagA._(i: i);
+  }
 
   // expect_lint: mut_out_of_scope
   void shouldMarkInBagA() {
     globalScopeVar = 1;
   }
+
+  void create(String path) {}
 }
 
 /* This section shows that exemptions should be made for certain conditions */
@@ -52,7 +60,7 @@ class ImplMockWidget extends MockWidget {
 
 /* This section shows that reassignment to the variable at a depth of n=1 is fine, but reasignment to its inner items is not */
 void reAssignDepth1(BagA bagADepth1) {
-  bagADepth1 = BagA();
+  bagADepth1 = BagA._();
 }
 
 // expect_lint: mut_param
@@ -63,6 +71,33 @@ void reAssignDepth2List(BagA bagADepth2List) {
 // expect_lint: mut_param
 void reAssignDepth2IntMut(BagA bagADepth2Int) {
   bagADepth2Int.i = 2;
+}
+
+// FYI(nf, 09/11/23): Cascaded inline assignments should not cause a lint warning
+BagA createZipFile(String path) {
+  final encoder = BagA._()..create(path);
+  return encoder;
+}
+
+List<String> visible = [];
+List<String> hidden = [];
+List<String> makeVisible(String id) {
+  final newVis = {...visible, id}.toList();
+  final newHidden = [...hidden]..remove(id);
+
+  return [...newVis, ...newHidden];
+}
+
+/// Special function to handle moving between LibCoordinator and LibGravioCloud
+int dontThrowForComplexCascade() {
+  final fromAuth1 = BagA._();
+  final lc2auth = BagA.sample(fromAuth1.i)..i = 2;
+  return 0;
+}
+
+int dontThrowForAssignmentOnConstructorCascade() {
+  BagA._()..i = 12;
+  return 0;
 }
 
 void dummyMut() {}
