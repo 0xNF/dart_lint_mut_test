@@ -14574,3 +14574,523 @@ pr
 [mut_infect] 2023-09-11T09:08:13.394664 dummyMut()
 [mut_infect] 2023-09-11T09:08:13.401758 dummyMut()
 [mut_infect] 2023-09-11T09:08:13.408745 print('Hello world: !')
+[custom_lint] 2023-09-11T10:14:48.953228 ../../../../Documents/nickdocs/projects/experiments/lint_mut_infect/lib/lint_mut_infect.dart:73:12: Warning: Operand of null-aware operation '?.' has type 'AstNode' which excludes null.
+[custom_lint] 2023-09-11T10:14:48.953228  - 'AstNode' is from 'package:analyzer/src/dart/ast/ast.dart' ('../../Pub/Cache/hosted/pub.dev/analyzer-6.2.0/lib/src/dart/ast/ast.dart').
+[custom_lint] 2023-09-11T10:14:48.953228     return node?.endToken;
+[custom_lint] 2023-09-11T10:14:48.953228            ^
+[custom_lint] 2023-09-11T10:14:48.953228
+[custom_lint] 2023-09-11T10:14:48.953228
+[custom_lint] 2023-09-11T10:14:51.239197 ../../../../Documents/nickdocs/projects/experiments/lint_mut_infect/lib/lint_mut_infect.dart:73:12: Warning: Operand of null-aware operation '?.' has type 'AstNode' which excludes null.
+[custom_lint] 2023-09-11T10:14:51.239197  - 'AstNode' is from 'package:analyzer/src/dart/ast/ast.dart' ('../../Pub/Cache/hosted/pub.dev/analyzer-6.2.0/lib/src/dart/ast/ast.dart').
+[custom_lint] 2023-09-11T10:14:51.239197     return node?.endToken;
+[custom_lint] 2023-09-11T10:14:51.239197            ^
+[custom_lint] 2023-09-11T10:14:51.239197
+[custom_lint] 2023-09-11T10:14:51.239197
+[custom_lint] 2023-09-11T10:14:53.417599 ../../../../Documents/nickdocs/projects/experiments/lint_mut_infect/lib/lint_mut_infect.dart:73:12: Warning: Operand of null-aware operation '?.' has type 'AstNode' which excludes null.
+[custom_lint] 2023-09-11T10:14:53.417599  - 'AstNode' is from 'package:analyzer/src/dart/ast/ast.dart' ('../../Pub/Cache/hosted/pub.dev/analyzer-6.2.0/lib/src/dart/ast/ast.dart').
+[custom_lint] 2023-09-11T10:14:53.417599     return node?.endToken;
+[custom_lint] 2023-09-11T10:14:53.417599            ^
+[custom_lint] 2023-09-11T10:14:53.417599
+[custom_lint] 2023-09-11T10:14:53.417599
+[custom_lint] 2023-09-11T10:14:54.906046 ../../../../Documents/nickdocs/projects/experiments/lint_mut_infect/lib/lint_mut_infect.dart:73:12: Warning: Operand of null-aware operation '?.' has type 'AstNode' which excludes null.
+[custom_lint] 2023-09-11T10:14:54.906046  - 'AstNode' is from 'package:analyzer/src/dart/ast/ast.dart' ('../../Pub/Cache/hosted/pub.dev/analyzer-6.2.0/lib/src/dart/ast/ast.dart').
+[custom_lint] 2023-09-11T10:14:54.906046     return node?.endToken;
+[custom_lint] 2023-09-11T10:14:54.906046            ^
+[custom_lint] 2023-09-11T10:14:54.906046
+[custom_lint] 2023-09-11T10:14:54.906046
+[custom_lint] 2023-09-11T10:14:56.644022 ../../../../Documents/nickdocs/projects/experiments/lint_mut_infect/lib/lint_mut_infect.dart:73:12: Warning: Operand of null-aware operation '?.' has type 'AstNode' which excludes null.
+[custom_lint] 2023-09-11T10:14:56.644022  - 'AstNode' is from 'package:analyzer/src/dart/ast/ast.dart' ('../../Pub/Cache/hosted/pub.dev/analyzer-6.2.0/lib/src/dart/ast/ast.dart').
+[custom_lint] 2023-09-11T10:14:56.644022     return node?.endToken;
+[custom_lint] 2023-09-11T10:14:56.644022            ^
+[custom_lint] 2023-09-11T10:14:56.644022
+[custom_lint] 2023-09-11T10:14:56.644948
+[custom_lint] 2023-09-11T10:14:56.644948
+[custom_lint] 2023-09-11T10:14:56.644948
+[custom_lint] 2023-09-11T10:14:58.552353 ../../../../Documents/nickdocs/projects/experiments/lint_mut_infect/lib/lint_mut_infect.dart:73:12: Warning: Operand of null-aware operation '?.' has type 'AstNode' which excludes null.
+[custom_lint] 2023-09-11T10:14:58.552353  - 'AstNode' is from 'package:analyzer/src/dart/ast/ast.dart' ('../../Pub/Cache/hosted/pub.dev/analyzer-6.2.0/lib/src/dart/ast/ast.dart').
+[custom_lint] 2023-09-11T10:14:58.552353     return node?.endToken;
+[custom_lint] 2023-09-11T10:14:58.552353            ^
+[custom_lint] 2023-09-11T10:14:58.552353
+[custom_lint] 2023-09-11T10:14:58.552353
+[custom_lint] 2023-09-11T10:15:00.466843 ../../../../Documents/nickdocs/projects/experiments/lint_mut_infect/lib/lint_mut_infect.dart:73:12: Warning: Operand of null-aware operation '?.' has type 'AstNode' which excludes null.
+[custom_lint] 2023-09-11T10:15:00.466843  - 'AstNode' is from 'package:analyzer/src/dart/ast/ast.dart' ('../../Pub/Cache/hosted/pub.dev/analyzer-6.2.0/lib/src/dart/ast/ast.dart').
+[custom_lint] 2023-09-11T10:15:00.466843     return node?.endToken;
+[custom_lint] 2023-09-11T10:15:00.466843            ^
+[custom_lint] 2023-09-11T10:15:00.466843
+[custom_lint] 2023-09-11T10:15:00.467827
+[custom_lint] 2023-09-11T10:15:00.467827
+[custom_lint] 2023-09-11T10:15:00.467827
+[custom_lint] 2023-09-11T10:15:05.929435 ../../../../Documents/nickdocs/projects/experiments/lint_mut_infect/lib/lint_mut_infect.dart:71:12: Warning: Operand of null-aware operation '?.' has type 'AstNode' which excludes null.
+[custom_lint] 2023-09-11T10:15:05.929435  - 'AstNode' is from 'package:analyzer/src/dart/ast/ast.dart' ('../../Pub/Cache/hosted/pub.dev/analyzer-6.2.0/lib/src/dart/ast/ast.dart').
+[custom_lint] 2023-09-11T10:15:05.929435     return node?.endToken;
+[custom_lint] 2023-09-11T10:15:05.929435            ^
+[custom_lint] 2023-09-11T10:15:05.929435
+[custom_lint] 2023-09-11T10:15:05.929435
+[custom_lint] 2023-09-11T10:15:05.929435
+[custom_lint] 2023-09-11T10:15:05.929435
+[custom_lint] 2023-09-11T10:15:11.102654 ../../../../Documents/nickdocs/projects/experiments/lint_mut_infect/lib/lint_mut_infect.dart:69:12: Warning: Operand of null-aware operation '?.' has type 'AstNode' which excludes null.
+[custom_lint] 2023-09-11T10:15:11.102654  - 'AstNode' is from 'package:analyzer/src/dart/ast/ast.dart' ('../../Pub/Cache/hosted/pub.dev/analyzer-6.2.0/lib/src/dart/ast/ast.dart').
+[custom_lint] 2023-09-11T10:15:11.102654     return node?.endToken;
+[custom_lint] 2023-09-11T10:15:11.102654            ^
+[custom_lint] 2023-09-11T10:15:11.102654
+[custom_lint] 2023-09-11T10:15:11.102654
+[custom_lint] 2023-09-11T10:15:11.102654
+[custom_lint] 2023-09-11T10:15:11.102654
+[custom_lint] 2023-09-11T10:15:13.603699 ../../../../Documents/nickdocs/projects/experiments/lint_mut_infect/lib/lint_mut_infect.dart:69:12: Warning: Operand of null-aware operation '?.' has type 'AstNode' which excludes null.
+[custom_lint] 2023-09-11T10:15:13.603699  - 'AstNode' is from 'package:analyzer/src/dart/ast/ast.dart' ('../../Pub/Cache/hosted/pub.dev/analyzer-6.2.0/lib/src/dart/ast/ast.dart').
+[custom_lint] 2023-09-11T10:15:13.603699     return node?.endToken;
+[custom_lint] 2023-09-11T10:15:13.603699            ^
+[custom_lint] 2023-09-11T10:15:13.603699
+[custom_lint] 2023-09-11T10:15:13.603699
+[custom_lint] 2023-09-11T10:15:15.957623 ../../../../Documents/nickdocs/projects/experiments/lint_mut_infect/lib/lint_mut_infect.dart:69:12: Warning: Operand of null-aware operation '?.' has type 'AstNode' which excludes null.
+[custom_lint] 2023-09-11T10:15:15.957623  - 'AstNode' is from 'package:analyzer/src/dart/ast/ast.dart' ('../../Pub/Cache/hosted/pub.dev/analyzer-6.2.0/lib/src/dart/ast/ast.dart').
+[custom_lint] 2023-09-11T10:15:15.957623     return node?.endToken;
+[custom_lint] 2023-09-11T10:15:15.957623            ^
+[custom_lint] 2023-09-11T10:15:15.957623
+[custom_lint] 2023-09-11T10:15:15.957623
+[custom_lint] 2023-09-11T10:15:15.957623
+[custom_lint] 2023-09-11T10:15:15.957623
+[custom_lint] 2023-09-11T10:15:20.107438 ../../../../Documents/nickdocs/projects/experiments/lint_mut_infect/lib/lint_mut_infect.dart:69:12: Warning: Operand of null-aware operation '?.' has type 'AstNode' which excludes null.
+[custom_lint] 2023-09-11T10:15:20.107438  - 'AstNode' is from 'package:analyzer/src/dart/ast/ast.dart' ('../../Pub/Cache/hosted/pub.dev/analyzer-6.2.0/lib/src/dart/ast/ast.dart').
+[custom_lint] 2023-09-11T10:15:20.107438     return node?.endToken;
+[custom_lint] 2023-09-11T10:15:20.107438            ^
+[custom_lint] 2023-09-11T10:15:20.107438
+[custom_lint] 2023-09-11T10:15:20.107438
+[custom_lint] 2023-09-11T10:15:22.175262 ../../../../Documents/nickdocs/projects/experiments/lint_mut_infect/lib/lint_mut_infect.dart:69:12: Warning: Operand of null-aware operation '?.' has type 'AstNode' which excludes null.
+[custom_lint] 2023-09-11T10:15:22.175262  - 'AstNode' is from 'package:analyzer/src/dart/ast/ast.dart' ('../../Pub/Cache/hosted/pub.dev/analyzer-6.2.0/lib/src/dart/ast/ast.dart').
+[custom_lint] 2023-09-11T10:15:22.175262     return node?.endToken;
+[custom_lint] 2023-09-11T10:15:22.175262            ^
+[custom_lint] 2023-09-11T10:15:22.175262
+[custom_lint] 2023-09-11T10:15:22.175262
+[custom_lint] 2023-09-11T10:15:30.131472 ../../../../Documents/nickdocs/projects/experiments/lint_mut_infect/lib/lint_mut_infect.dart:69:12: Warning: Operand of null-aware operation '?.' has type 'AstNode' which excludes null.
+[custom_lint] 2023-09-11T10:15:30.131472  - 'AstNode' is from 'package:analyzer/src/dart/ast/ast.dart' ('../../Pub/Cache/hosted/pub.dev/analyzer-6.2.0/lib/src/dart/ast/ast.dart').
+[custom_lint] 2023-09-11T10:15:30.131472     return node?.endToken;
+[custom_lint] 2023-09-11T10:15:30.131472            ^
+[custom_lint] 2023-09-11T10:15:30.131472
+[custom_lint] 2023-09-11T10:15:30.131472
+[custom_lint] 2023-09-11T10:15:33.191601 ../../../../Documents/nickdocs/projects/experiments/lint_mut_infect/lib/lint_mut_infect.dart:69:12: Warning: Operand of null-aware operation '?.' has type 'AstNode' which excludes null.
+[custom_lint] 2023-09-11T10:15:33.191601  - 'AstNode' is from 'package:analyzer/src/dart/ast/ast.dart' ('../../Pub/Cache/hosted/pub.dev/analyzer-6.2.0/lib/src/dart/ast/ast.dart').
+[custom_lint] 2023-09-11T10:15:33.191601     return node?.endToken;
+[custom_lint] 2023-09-11T10:15:33.191601            ^
+[custom_lint] 2023-09-11T10:15:33.191601
+[custom_lint] 2023-09-11T10:15:33.191601
+[custom_lint] 2023-09-11T10:15:33.191601
+[custom_lint] 2023-09-11T10:15:33.191601
+[custom_lint] 2023-09-11T10:15:37.452096 ../../../../Documents/nickdocs/projects/experiments/lint_mut_infect/lib/lint_mut_infect.dart:69:12: Warning: Operand of null-aware operation '?.' has type 'AstNode' which excludes null.
+[custom_lint] 2023-09-11T10:15:37.452096  - 'AstNode' is from 'package:analyzer/src/dart/ast/ast.dart' ('../../Pub/Cache/hosted/pub.dev/analyzer-6.2.0/lib/src/dart/ast/ast.dart').
+[custom_lint] 2023-09-11T10:15:37.452096     return node?.endToken;
+[custom_lint] 2023-09-11T10:15:37.452096            ^
+[custom_lint] 2023-09-11T10:15:37.452096
+[custom_lint] 2023-09-11T10:15:37.453019
+[custom_lint] 2023-09-11T10:15:37.453019
+[custom_lint] 2023-09-11T10:15:37.453019
+[custom_lint] 2023-09-11T10:15:39.566501 ../../../../Documents/nickdocs/projects/experiments/lint_mut_infect/lib/lint_mut_infect.dart:69:12: Warning: Operand of null-aware operation '?.' has type 'AstNode' which excludes null.
+[custom_lint] 2023-09-11T10:15:39.566501  - 'AstNode' is from 'package:analyzer/src/dart/ast/ast.dart' ('../../Pub/Cache/hosted/pub.dev/analyzer-6.2.0/lib/src/dart/ast/ast.dart').
+[custom_lint] 2023-09-11T10:15:39.566501     return node?.endToken;
+[custom_lint] 2023-09-11T10:15:39.566501            ^
+[custom_lint] 2023-09-11T10:15:39.566501
+[custom_lint] 2023-09-11T10:15:39.566501
+[custom_lint] 2023-09-11T10:15:39.566501
+[custom_lint] 2023-09-11T10:15:39.566501
+[custom_lint] 2023-09-11T10:15:44.997714 ../../../../Documents/nickdocs/projects/experiments/lint_mut_infect/lib/lint_mut_infect.dart:69:12: Warning: Operand of null-aware operation '?.' has type 'AstNode' which excludes null.
+[custom_lint] 2023-09-11T10:15:44.997714  - 'AstNode' is from 'package:analyzer/src/dart/ast/ast.dart' ('../../Pub/Cache/hosted/pub.dev/analyzer-6.2.0/lib/src/dart/ast/ast.dart').
+[custom_lint] 2023-09-11T10:15:44.997714     return node?.endToken;
+[custom_lint] 2023-09-11T10:15:44.997714            ^
+[custom_lint] 2023-09-11T10:15:44.997714
+[custom_lint] 2023-09-11T10:15:44.998714
+[custom_lint] 2023-09-11T10:15:44.998714
+[custom_lint] 2023-09-11T10:15:44.998714
+[custom_lint] 2023-09-11T10:15:47.231318 ../../../../Documents/nickdocs/projects/experiments/lint_mut_infect/lib/lint_mut_infect.dart:69:12: Warning: Operand of null-aware operation '?.' has type 'AstNode' which excludes null.
+[custom_lint] 2023-09-11T10:15:47.231318  - 'AstNode' is from 'package:analyzer/src/dart/ast/ast.dart' ('../../Pub/Cache/hosted/pub.dev/analyzer-6.2.0/lib/src/dart/ast/ast.dart').
+[custom_lint] 2023-09-11T10:15:47.231318     return node?.endToken;
+[custom_lint] 2023-09-11T10:15:47.231318            ^
+[custom_lint] 2023-09-11T10:15:47.231318
+[custom_lint] 2023-09-11T10:15:47.231318
+[custom_lint] 2023-09-11T10:15:47.231318
+[custom_lint] 2023-09-11T10:15:47.231318
+[custom_lint] 2023-09-11T10:15:49.623770 ../../../../Documents/nickdocs/projects/experiments/lint_mut_infect/lib/lint_mut_infect.dart:69:12: Warning: Operand of null-aware operation '?.' has type 'AstNode' which excludes null.
+[custom_lint] 2023-09-11T10:15:49.623770  - 'AstNode' is from 'package:analyzer/src/dart/ast/ast.dart' ('../../Pub/Cache/hosted/pub.dev/analyzer-6.2.0/lib/src/dart/ast/ast.dart').
+[custom_lint] 2023-09-11T10:15:49.623770     return node?.endToken;
+[custom_lint] 2023-09-11T10:15:49.623770            ^
+[custom_lint] 2023-09-11T10:15:49.623770
+[custom_lint] 2023-09-11T10:15:49.623770
+[custom_lint] 2023-09-11T10:15:57.091543 ../../../../Documents/nickdocs/projects/experiments/lint_mut_infect/lib/lint_mut_infect.dart:69:12: Warning: Operand of null-aware operation '?.' has type 'AstNode' which excludes null.
+[custom_lint] 2023-09-11T10:15:57.091543  - 'AstNode' is from 'package:analyzer/src/dart/ast/ast.dart' ('../../Pub/Cache/hosted/pub.dev/analyzer-6.2.0/lib/src/dart/ast/ast.dart').
+[custom_lint] 2023-09-11T10:15:57.091543     return node?.endToken;
+[custom_lint] 2023-09-11T10:15:57.091543            ^
+[custom_lint] 2023-09-11T10:15:57.091543
+[custom_lint] 2023-09-11T10:15:57.091543
+[custom_lint] 2023-09-11T10:16:05.175744 ../../../../Documents/nickdocs/projects/experiments/lint_mut_infect/lib/lint_mut_infect.dart:69:12: Warning: Operand of null-aware operation '?.' has type 'AstNode' which excludes null.
+[custom_lint] 2023-09-11T10:16:05.175744  - 'AstNode' is from 'package:analyzer/src/dart/ast/ast.dart' ('../../Pub/Cache/hosted/pub.dev/analyzer-6.2.0/lib/src/dart/ast/ast.dart').
+[custom_lint] 2023-09-11T10:16:05.175744     return node?.endToken;
+[custom_lint] 2023-09-11T10:16:05.175744            ^
+[custom_lint] 2023-09-11T10:16:05.175744
+[custom_lint] 2023-09-11T10:16:05.175744
+[custom_lint] 2023-09-11T10:16:07.770587 ../../../../Documents/nickdocs/projects/experiments/lint_mut_infect/lib/lint_mut_infect.dart:69:12: Warning: Operand of null-aware operation '?.' has type 'AstNode' which excludes null.
+[custom_lint] 2023-09-11T10:16:07.770587  - 'AstNode' is from 'package:analyzer/src/dart/ast/ast.dart' ('../../Pub/Cache/hosted/pub.dev/analyzer-6.2.0/lib/src/dart/ast/ast.dart').
+[custom_lint] 2023-09-11T10:16:07.770587     return node?.endToken;
+[custom_lint] 2023-09-11T10:16:07.770587            ^
+[custom_lint] 2023-09-11T10:16:07.770587
+[custom_lint] 2023-09-11T10:16:07.770587
+[custom_lint] 2023-09-11T10:16:14.123683 ../../../../Documents/nickdocs/projects/experiments/lint_mut_infect/lib/lint_mut_infect.dart:69:12: Warning: Operand of null-aware operation '?.' has type 'AstNode' which excludes null.
+[custom_lint] 2023-09-11T10:16:14.123683  - 'AstNode' is from 'package:analyzer/src/dart/ast/ast.dart' ('../../Pub/Cache/hosted/pub.dev/analyzer-6.2.0/lib/src/dart/ast/ast.dart').
+[custom_lint] 2023-09-11T10:16:14.123683     return node?.endToken;
+[custom_lint] 2023-09-11T10:16:14.123683            ^
+[custom_lint] 2023-09-11T10:16:14.123683
+[custom_lint] 2023-09-11T10:16:14.123683
+[custom_lint] 2023-09-11T10:16:14.123683
+[custom_lint] 2023-09-11T10:16:14.123683
+[custom_lint] 2023-09-11T10:16:19.891964 ../../../../Documents/nickdocs/projects/experiments/lint_mut_infect/lib/lint_mut_infect.dart:69:12: Warning: Operand of null-aware operation '?.' has type 'AstNode' which excludes null.
+[custom_lint] 2023-09-11T10:16:19.891964  - 'AstNode' is from 'package:analyzer/src/dart/ast/ast.dart' ('../../Pub/Cache/hosted/pub.dev/analyzer-6.2.0/lib/src/dart/ast/ast.dart').
+[custom_lint] 2023-09-11T10:16:19.891964     return node?.endToken;
+[custom_lint] 2023-09-11T10:16:19.891964            ^
+[custom_lint] 2023-09-11T10:16:19.891964
+[custom_lint] 2023-09-11T10:16:19.891964
+[custom_lint] 2023-09-11T10:16:19.891964
+[custom_lint] 2023-09-11T10:16:19.891964
+[custom_lint] 2023-09-11T10:16:24.893867 ../../../../Documents/nickdocs/projects/experiments/lint_mut_infect/lib/lint_mut_infect.dart:69:12: Warning: Operand of null-aware operation '?.' has type 'AstNode' which excludes null.
+[custom_lint] 2023-09-11T10:16:24.893867  - 'AstNode' is from 'package:analyzer/src/dart/ast/ast.dart' ('../../Pub/Cache/hosted/pub.dev/analyzer-6.2.0/lib/src/dart/ast/ast.dart').
+[custom_lint] 2023-09-11T10:16:24.893867     return node?.endToken;
+[custom_lint] 2023-09-11T10:16:24.893867            ^
+[custom_lint] 2023-09-11T10:16:24.893867
+[custom_lint] 2023-09-11T10:16:24.893867
+[custom_lint] 2023-09-11T10:16:27.895345 ../../../../Documents/nickdocs/projects/experiments/lint_mut_infect/lib/lint_mut_infect.dart:69:12: Warning: Operand of null-aware operation '?.' has type 'AstNode' which excludes null.
+[custom_lint] 2023-09-11T10:16:27.895345  - 'AstNode' is from 'package:analyzer/src/dart/ast/ast.dart' ('../../Pub/Cache/hosted/pub.dev/analyzer-6.2.0/lib/src/dart/ast/ast.dart').
+[custom_lint] 2023-09-11T10:16:27.895345     return node?.endToken;
+[custom_lint] 2023-09-11T10:16:27.895345            ^
+[custom_lint] 2023-09-11T10:16:27.895345
+[custom_lint] 2023-09-11T10:16:27.896853
+[custom_lint] 2023-09-11T10:16:27.896853
+[custom_lint] 2023-09-11T10:16:27.896853
+[custom_lint] 2023-09-11T10:16:33.440086 ../../../../Documents/nickdocs/projects/experiments/lint_mut_infect/lib/lint_mut_infect.dart:69:12: Warning: Operand of null-aware operation '?.' has type 'AstNode' which excludes null.
+[custom_lint] 2023-09-11T10:16:33.440086  - 'AstNode' is from 'package:analyzer/src/dart/ast/ast.dart' ('../../Pub/Cache/hosted/pub.dev/analyzer-6.2.0/lib/src/dart/ast/ast.dart').
+[custom_lint] 2023-09-11T10:16:33.440086     return node?.endToken;
+[custom_lint] 2023-09-11T10:16:33.440086            ^
+[custom_lint] 2023-09-11T10:16:33.440086
+[custom_lint] 2023-09-11T10:16:33.440086
+[custom_lint] 2023-09-11T10:16:33.440086
+[custom_lint] 2023-09-11T10:16:33.440086
+[custom_lint] 2023-09-11T10:16:38.658271 ../../../../Documents/nickdocs/projects/experiments/lint_mut_infect/lib/lint_mut_infect.dart:69:12: Warning: Operand of null-aware operation '?.' has type 'AstNode' which excludes null.
+[custom_lint] 2023-09-11T10:16:38.658271  - 'AstNode' is from 'package:analyzer/src/dart/ast/ast.dart' ('../../Pub/Cache/hosted/pub.dev/analyzer-6.2.0/lib/src/dart/ast/ast.dart').
+[custom_lint] 2023-09-11T10:16:38.658271     return node?.endToken;
+[custom_lint] 2023-09-11T10:16:38.658271            ^
+[custom_lint] 2023-09-11T10:16:38.658271
+[custom_lint] 2023-09-11T10:16:38.658271
+[custom_lint] 2023-09-11T10:16:38.658271
+[custom_lint] 2023-09-11T10:16:38.658271
+[custom_lint] 2023-09-11T10:16:42.532092 ../../../../Documents/nickdocs/projects/experiments/lint_mut_infect/lib/lint_mut_infect.dart:69:12: Warning: Operand of null-aware operation '?.' has type 'AstNode' which excludes null.
+[custom_lint] 2023-09-11T10:16:42.532092  - 'AstNode' is from 'package:analyzer/src/dart/ast/ast.dart' ('../../Pub/Cache/hosted/pub.dev/analyzer-6.2.0/lib/src/dart/ast/ast.dart').
+[custom_lint] 2023-09-11T10:16:42.532092     return node?.endToken;
+[custom_lint] 2023-09-11T10:16:42.532092            ^
+[custom_lint] 2023-09-11T10:16:42.532092
+[custom_lint] 2023-09-11T10:16:42.533099
+[custom_lint] 2023-09-11T10:16:42.533099
+[custom_lint] 2023-09-11T10:16:42.533099
+[custom_lint] 2023-09-11T10:16:46.171678 ../../../../Documents/nickdocs/projects/experiments/lint_mut_infect/lib/lint_mut_infect.dart:69:12: Warning: Operand of null-aware operation '?.' has type 'AstNode' which excludes null.
+[custom_lint] 2023-09-11T10:16:46.171678  - 'AstNode' is from 'package:analyzer/src/dart/ast/ast.dart' ('../../Pub/Cache/hosted/pub.dev/analyzer-6.2.0/lib/src/dart/ast/ast.dart').
+[custom_lint] 2023-09-11T10:16:46.171678     return node?.endToken;
+[custom_lint] 2023-09-11T10:16:46.171678            ^
+[custom_lint] 2023-09-11T10:16:46.171678
+[custom_lint] 2023-09-11T10:16:46.171678
+[custom_lint] 2023-09-11T10:16:46.171678
+[custom_lint] 2023-09-11T10:16:46.171678
+[custom_lint] 2023-09-11T10:16:52.473119 ../../../../Documents/nickdocs/projects/experiments/lint_mut_infect/lib/lint_mut_infect.dart:69:12: Warning: Operand of null-aware operation '?.' has type 'AstNode' which excludes null.
+[custom_lint] 2023-09-11T10:16:52.473119  - 'AstNode' is from 'package:analyzer/src/dart/ast/ast.dart' ('../../Pub/Cache/hosted/pub.dev/analyzer-6.2.0/lib/src/dart/ast/ast.dart').
+[custom_lint] 2023-09-11T10:16:52.473119     return node?.endToken;
+[custom_lint] 2023-09-11T10:16:52.473119            ^
+[custom_lint] 2023-09-11T10:16:52.473119
+[custom_lint] 2023-09-11T10:16:52.473119
+[custom_lint] 2023-09-11T10:16:52.473119
+[custom_lint] 2023-09-11T10:16:52.473119
+[custom_lint] 2023-09-11T10:16:57.306319 ../../../../Documents/nickdocs/projects/experiments/lint_mut_infect/lib/lint_mut_infect.dart:69:12: Warning: Operand of null-aware operation '?.' has type 'AstNode' which excludes null.
+[custom_lint] 2023-09-11T10:16:57.306319  - 'AstNode' is from 'package:analyzer/src/dart/ast/ast.dart' ('../../Pub/Cache/hosted/pub.dev/analyzer-6.2.0/lib/src/dart/ast/ast.dart').
+[custom_lint] 2023-09-11T10:16:57.306319     return node?.endToken;
+[custom_lint] 2023-09-11T10:16:57.306319            ^
+[custom_lint] 2023-09-11T10:16:57.306319
+[custom_lint] 2023-09-11T10:16:57.307318
+[custom_lint] 2023-09-11T10:16:57.307318
+[custom_lint] 2023-09-11T10:16:57.307318
+[custom_lint] 2023-09-11T10:16:58.714400 ../../../../Documents/nickdocs/projects/experiments/lint_mut_infect/lib/lint_mut_infect.dart:69:12: Warning: Operand of null-aware operation '?.' has type 'AstNode' which excludes null.
+[custom_lint] 2023-09-11T10:16:58.714400  - 'AstNode' is from 'package:analyzer/src/dart/ast/ast.dart' ('../../Pub/Cache/hosted/pub.dev/analyzer-6.2.0/lib/src/dart/ast/ast.dart').
+[custom_lint] 2023-09-11T10:16:58.714400     return node?.endToken;
+[custom_lint] 2023-09-11T10:16:58.714400            ^
+[custom_lint] 2023-09-11T10:16:58.714400
+[custom_lint] 2023-09-11T10:16:58.714400
+[custom_lint] 2023-09-11T10:17:13.399385 ../../../../Documents/nickdocs/projects/experiments/lint_mut_infect/lib/lint_mut_infect.dart:67:12: Warning: Operand of null-aware operation '?.' has type 'AstNode' which excludes null.
+[custom_lint] 2023-09-11T10:17:13.399385  - 'AstNode' is from 'package:analyzer/src/dart/ast/ast.dart' ('../../Pub/Cache/hosted/pub.dev/analyzer-6.2.0/lib/src/dart/ast/ast.dart').
+[custom_lint] 2023-09-11T10:17:13.399385     return node?.endToken;
+[custom_lint] 2023-09-11T10:17:13.399385            ^
+[custom_lint] 2023-09-11T10:17:13.399385
+[custom_lint] 2023-09-11T10:17:13.399385
+[custom_lint] 2023-09-11T10:17:13.399385
+[custom_lint] 2023-09-11T10:17:13.399385
+[custom_lint] 2023-09-11T10:17:20.678015 ../../../../Documents/nickdocs/projects/experiments/lint_mut_infect/lib/lint_mut_infect.dart:69:12: Warning: Operand of null-aware operation '?.' has type 'AstNode' which excludes null.
+[custom_lint] 2023-09-11T10:17:20.678015  - 'AstNode' is from 'package:analyzer/src/dart/ast/ast.dart' ('../../Pub/Cache/hosted/pub.dev/analyzer-6.2.0/lib/src/dart/ast/ast.dart').
+[custom_lint] 2023-09-11T10:17:20.678015     return node?.endToken;
+[custom_lint] 2023-09-11T10:17:20.678015            ^
+[custom_lint] 2023-09-11T10:17:20.678015
+[custom_lint] 2023-09-11T10:17:20.678015
+[custom_lint] 2023-09-11T10:17:23.693766 ../../../../Documents/nickdocs/projects/experiments/lint_mut_infect/lib/lint_mut_infect.dart:69:12: Warning: Operand of null-aware operation '?.' has type 'AstNode' which excludes null.
+[custom_lint] 2023-09-11T10:17:23.693766  - 'AstNode' is from 'package:analyzer/src/dart/ast/ast.dart' ('../../Pub/Cache/hosted/pub.dev/analyzer-6.2.0/lib/src/dart/ast/ast.dart').
+[custom_lint] 2023-09-11T10:17:23.693766     return node?.endToken;
+[custom_lint] 2023-09-11T10:17:23.693766            ^
+[custom_lint] 2023-09-11T10:17:23.693766
+[custom_lint] 2023-09-11T10:17:23.709399
+[custom_lint] 2023-09-11T10:17:23.709399
+[custom_lint] 2023-09-11T10:17:23.709399
+[custom_lint] 2023-09-11T10:17:33.380418 ../../../../Documents/nickdocs/projects/experiments/lint_mut_infect/lib/lint_mut_infect.dart:69:12: Warning: Operand of null-aware operation '?.' has type 'AstNode' which excludes null.
+[custom_lint] 2023-09-11T10:17:33.380418  - 'AstNode' is from 'package:analyzer/src/dart/ast/ast.dart' ('../../Pub/Cache/hosted/pub.dev/analyzer-6.2.0/lib/src/dart/ast/ast.dart').
+[custom_lint] 2023-09-11T10:17:33.380418     return node?.endToken;
+[custom_lint] 2023-09-11T10:17:33.380418            ^
+[custom_lint] 2023-09-11T10:17:33.380418
+[custom_lint] 2023-09-11T10:17:33.381417
+[custom_lint] 2023-09-11T10:17:33.381417
+[custom_lint] 2023-09-11T10:17:33.381417
+[custom_lint] 2023-09-11T10:17:36.003126 ../../../../Documents/nickdocs/projects/experiments/lint_mut_infect/lib/lint_mut_infect.dart:69:12: Warning: Operand of null-aware operation '?.' has type 'AstNode' which excludes null.
+[custom_lint] 2023-09-11T10:17:36.003126  - 'AstNode' is from 'package:analyzer/src/dart/ast/ast.dart' ('../../Pub/Cache/hosted/pub.dev/analyzer-6.2.0/lib/src/dart/ast/ast.dart').
+[custom_lint] 2023-09-11T10:17:36.003126     return node?.endToken;
+[custom_lint] 2023-09-11T10:17:36.003126            ^
+[custom_lint] 2023-09-11T10:17:36.003126
+[custom_lint] 2023-09-11T10:17:36.004128
+[custom_lint] 2023-09-11T10:17:36.004128
+[custom_lint] 2023-09-11T10:17:36.004128
+[custom_lint] 2023-09-11T10:17:40.307924 ../../../../Documents/nickdocs/projects/experiments/lint_mut_infect/lib/lint_mut_infect.dart:69:12: Warning: Operand of null-aware operation '?.' has type 'AstNode' which excludes null.
+[custom_lint] 2023-09-11T10:17:40.307924  - 'AstNode' is from 'package:analyzer/src/dart/ast/ast.dart' ('../../Pub/Cache/hosted/pub.dev/analyzer-6.2.0/lib/src/dart/ast/ast.dart').
+[custom_lint] 2023-09-11T10:17:40.307924     return node?.endToken;
+[custom_lint] 2023-09-11T10:17:40.307924            ^
+[custom_lint] 2023-09-11T10:17:40.307924
+[custom_lint] 2023-09-11T10:17:40.307924
+[custom_lint] 2023-09-11T10:17:41.573703 ../../../../Documents/nickdocs/projects/experiments/lint_mut_infect/lib/lint_mut_infect.dart:69:12: Warning: Operand of null-aware operation '?.' has type 'AstNode' which excludes null.
+[custom_lint] 2023-09-11T10:17:41.573703  - 'AstNode' is from 'package:analyzer/src/dart/ast/ast.dart' ('../../Pub/Cache/hosted/pub.dev/analyzer-6.2.0/lib/src/dart/ast/ast.dart').
+[custom_lint] 2023-09-11T10:17:41.573703     return node?.endToken;
+[custom_lint] 2023-09-11T10:17:41.573703            ^
+[custom_lint] 2023-09-11T10:17:41.573703
+[custom_lint] 2023-09-11T10:17:41.573703
+[custom_lint] 2023-09-11T10:17:41.573703
+[custom_lint] 2023-09-11T10:17:41.573703
+[custom_lint] 2023-09-11T10:17:49.900792 ../../../../Documents/nickdocs/projects/experiments/lint_mut_infect/lib/lint_mut_infect.dart:67:12: Warning: Operand of null-aware operation '?.' has type 'AstNode' which excludes null.
+[custom_lint] 2023-09-11T10:17:49.900792  - 'AstNode' is from 'package:analyzer/src/dart/ast/ast.dart' ('../../Pub/Cache/hosted/pub.dev/analyzer-6.2.0/lib/src/dart/ast/ast.dart').
+[custom_lint] 2023-09-11T10:17:49.900792     return node?.endToken;
+[custom_lint] 2023-09-11T10:17:49.900792            ^
+[custom_lint] 2023-09-11T10:17:49.900792
+[custom_lint] 2023-09-11T10:17:49.900792
+[custom_lint] 2023-09-11T10:17:53.317940 ../../../../Documents/nickdocs/projects/experiments/lint_mut_infect/lib/lint_mut_infect.dart:65:12: Warning: Operand of null-aware operation '?.' has type 'AstNode' which excludes null.
+[custom_lint] 2023-09-11T10:17:53.317940  - 'AstNode' is from 'package:analyzer/src/dart/ast/ast.dart' ('../../Pub/Cache/hosted/pub.dev/analyzer-6.2.0/lib/src/dart/ast/ast.dart').
+[custom_lint] 2023-09-11T10:17:53.317940     return node?.endToken;
+[custom_lint] 2023-09-11T10:17:53.317940            ^
+[custom_lint] 2023-09-11T10:17:53.317940
+[custom_lint] 2023-09-11T10:17:53.317940
+[custom_lint] 2023-09-11T10:17:53.317940
+[custom_lint] 2023-09-11T10:17:53.317940
+[custom_lint] 2023-09-11T10:18:01.714519 ../../../../Documents/nickdocs/projects/experiments/lint_mut_infect/lib/lint_mut_infect.dart:65:12: Warning: Operand of null-aware operation '?.' has type 'AstNode' which excludes null.
+[custom_lint] 2023-09-11T10:18:01.714519  - 'AstNode' is from 'package:analyzer/src/dart/ast/ast.dart' ('../../Pub/Cache/hosted/pub.dev/analyzer-6.2.0/lib/src/dart/ast/ast.dart').
+[custom_lint] 2023-09-11T10:18:01.714519     return node?.endToken;
+[custom_lint] 2023-09-11T10:18:01.714519            ^
+[custom_lint] 2023-09-11T10:18:01.714519
+[custom_lint] 2023-09-11T10:18:01.714519
+[custom_lint] 2023-09-11T10:18:04.087143 ../../../../Documents/nickdocs/projects/experiments/lint_mut_infect/lib/lint_mut_infect.dart:65:12: Warning: Operand of null-aware operation '?.' has type 'AstNode' which excludes null.
+[custom_lint] 2023-09-11T10:18:04.087143  - 'AstNode' is from 'package:analyzer/src/dart/ast/ast.dart' ('../../Pub/Cache/hosted/pub.dev/analyzer-6.2.0/lib/src/dart/ast/ast.dart').
+[custom_lint] 2023-09-11T10:18:04.087143     return node?.endToken;
+[custom_lint] 2023-09-11T10:18:04.087143            ^
+[custom_lint] 2023-09-11T10:18:04.087143
+[custom_lint] 2023-09-11T10:18:04.087143
+[custom_lint] 2023-09-11T10:18:20.449201 ../../../../Documents/nickdocs/projects/experiments/lint_mut_infect/lib/lint_mut_infect.dart:64:12: Warning: Operand of null-aware operation '?.' has type 'AstNode' which excludes null.
+[custom_lint] 2023-09-11T10:18:20.449201  - 'AstNode' is from 'package:analyzer/src/dart/ast/ast.dart' ('../../Pub/Cache/hosted/pub.dev/analyzer-6.2.0/lib/src/dart/ast/ast.dart').
+[custom_lint] 2023-09-11T10:18:20.449201     return node?.endToken;
+[custom_lint] 2023-09-11T10:18:20.449201            ^
+[custom_lint] 2023-09-11T10:18:20.449201
+[custom_lint] 2023-09-11T10:18:20.449201
+[custom_lint] 2023-09-11T10:18:23.072219 ../../../../Documents/nickdocs/projects/experiments/lint_mut_infect/lib/lint_mut_infect.dart:65:12: Warning: Operand of null-aware operation '?.' has type 'AstNode' which excludes null.
+[custom_lint] 2023-09-11T10:18:23.072219  - 'AstNode' is from 'package:analyzer/src/dart/ast/ast.dart' ('../../Pub/Cache/hosted/pub.dev/analyzer-6.2.0/lib/src/dart/ast/ast.dart').
+[custom_lint] 2023-09-11T10:18:23.072219     return node?.endToken;
+[custom_lint] 2023-09-11T10:18:23.072219            ^
+[custom_lint] 2023-09-11T10:18:23.072219
+[custom_lint] 2023-09-11T10:18:23.072219
+[custom_lint] 2023-09-11T10:18:23.072219
+[custom_lint] 2023-09-11T10:18:23.072219
+[custom_lint] 2023-09-11T10:18:25.867624 ../../../../Documents/nickdocs/projects/experiments/lint_mut_infect/lib/lint_mut_infect.dart:65:12: Warning: Operand of null-aware operation '?.' has type 'AstNode' which excludes null.
+[custom_lint] 2023-09-11T10:18:25.867624  - 'AstNode' is from 'package:analyzer/src/dart/ast/ast.dart' ('../../Pub/Cache/hosted/pub.dev/analyzer-6.2.0/lib/src/dart/ast/ast.dart').
+[custom_lint] 2023-09-11T10:18:25.867624     return node?.endToken;
+[custom_lint] 2023-09-11T10:18:25.867624            ^
+[custom_lint] 2023-09-11T10:18:25.867624
+[custom_lint] 2023-09-11T10:18:25.867624
+[custom_lint] 2023-09-11T10:18:25.867624
+[custom_lint] 2023-09-11T10:18:25.867624
+[custom_lint] 2023-09-11T10:18:29.127488 ../../../../Documents/nickdocs/projects/experiments/lint_mut_infect/lib/lint_mut_infect.dart:65:12: Warning: Operand of null-aware operation '?.' has type 'AstNode' which excludes null.
+[custom_lint] 2023-09-11T10:18:29.127488  - 'AstNode' is from 'package:analyzer/src/dart/ast/ast.dart' ('../../Pub/Cache/hosted/pub.dev/analyzer-6.2.0/lib/src/dart/ast/ast.dart').
+[custom_lint] 2023-09-11T10:18:29.127488     return node?.endToken;
+[custom_lint] 2023-09-11T10:18:29.127488            ^
+[custom_lint] 2023-09-11T10:18:29.127488
+[custom_lint] 2023-09-11T10:18:29.127488
+[custom_lint] 2023-09-11T10:18:33.199104 ../../../../Documents/nickdocs/projects/experiments/lint_mut_infect/lib/lint_mut_infect.dart:65:12: Warning: Operand of null-aware operation '?.' has type 'AstNode' which excludes null.
+[custom_lint] 2023-09-11T10:18:33.199104  - 'AstNode' is from 'package:analyzer/src/dart/ast/ast.dart' ('../../Pub/Cache/hosted/pub.dev/analyzer-6.2.0/lib/src/dart/ast/ast.dart').
+[custom_lint] 2023-09-11T10:18:33.199104     return node?.endToken;
+[custom_lint] 2023-09-11T10:18:33.199104            ^
+[custom_lint] 2023-09-11T10:18:33.199104
+[custom_lint] 2023-09-11T10:18:33.199104
+[custom_lint] 2023-09-11T10:18:34.628132 ../../../../Documents/nickdocs/projects/experiments/lint_mut_infect/lib/lint_mut_infect.dart:65:12: Warning: Operand of null-aware operation '?.' has type 'AstNode' which excludes null.
+[custom_lint] 2023-09-11T10:18:34.628132  - 'AstNode' is from 'package:analyzer/src/dart/ast/ast.dart' ('../../Pub/Cache/hosted/pub.dev/analyzer-6.2.0/lib/src/dart/ast/ast.dart').
+[custom_lint] 2023-09-11T10:18:34.628132     return node?.endToken;
+[custom_lint] 2023-09-11T10:18:34.628132            ^
+[custom_lint] 2023-09-11T10:18:34.628132
+[custom_lint] 2023-09-11T10:18:34.628132
+[custom_lint] 2023-09-11T10:18:36.470011 ../../../../Documents/nickdocs/projects/experiments/lint_mut_infect/lib/lint_mut_infect.dart:65:12: Warning: Operand of null-aware operation '?.' has type 'AstNode' which excludes null.
+[custom_lint] 2023-09-11T10:18:36.470011  - 'AstNode' is from 'package:analyzer/src/dart/ast/ast.dart' ('../../Pub/Cache/hosted/pub.dev/analyzer-6.2.0/lib/src/dart/ast/ast.dart').
+[custom_lint] 2023-09-11T10:18:36.470011     return node?.endToken;
+[custom_lint] 2023-09-11T10:18:36.470011            ^
+[custom_lint] 2023-09-11T10:18:36.470011
+[custom_lint] 2023-09-11T10:18:36.471014
+[custom_lint] 2023-09-11T10:18:36.471014
+[custom_lint] 2023-09-11T10:18:36.471014
+[custom_lint] 2023-09-11T10:18:37.715800 ../../../../Documents/nickdocs/projects/experiments/lint_mut_infect/lib/lint_mut_infect.dart:65:12: Warning: Operand of null-aware operation '?.' has type 'AstNode' which excludes null.
+[custom_lint] 2023-09-11T10:18:37.715800  - 'AstNode' is from 'package:analyzer/src/dart/ast/ast.dart' ('../../Pub/Cache/hosted/pub.dev/analyzer-6.2.0/lib/src/dart/ast/ast.dart').
+[custom_lint] 2023-09-11T10:18:37.715800     return node?.endToken;
+[custom_lint] 2023-09-11T10:18:37.715800            ^
+[custom_lint] 2023-09-11T10:18:37.715800
+[custom_lint] 2023-09-11T10:18:37.715800
+[custom_lint] 2023-09-11T10:18:37.715800
+[custom_lint] 2023-09-11T10:18:37.715800
+[custom_lint] 2023-09-11T10:18:41.742532 ../../../../Documents/nickdocs/projects/experiments/lint_mut_infect/lib/lint_mut_infect.dart:65:12: Warning: Operand of null-aware operation '?.' has type 'AstNode' which excludes null.
+[custom_lint] 2023-09-11T10:18:41.742532  - 'AstNode' is from 'package:analyzer/src/dart/ast/ast.dart' ('../../Pub/Cache/hosted/pub.dev/analyzer-6.2.0/lib/src/dart/ast/ast.dart').
+[custom_lint] 2023-09-11T10:18:41.742532     return node?.endToken;
+[custom_lint] 2023-09-11T10:18:41.742532            ^
+[custom_lint] 2023-09-11T10:18:41.742532
+[custom_lint] 2023-09-11T10:18:41.742532
+[custom_lint] 2023-09-11T10:18:41.742532
+[custom_lint] 2023-09-11T10:18:41.742532
+[custom_lint] 2023-09-11T10:18:43.980332 ../../../../Documents/nickdocs/projects/experiments/lint_mut_infect/lib/lint_mut_infect.dart:65:12: Warning: Operand of null-aware operation '?.' has type 'AstNode' which excludes null.
+[custom_lint] 2023-09-11T10:18:43.980332  - 'AstNode' is from 'package:analyzer/src/dart/ast/ast.dart' ('../../Pub/Cache/hosted/pub.dev/analyzer-6.2.0/lib/src/dart/ast/ast.dart').
+[custom_lint] 2023-09-11T10:18:43.980332     return node?.endToken;
+[custom_lint] 2023-09-11T10:18:43.980332            ^
+[custom_lint] 2023-09-11T10:18:43.980332
+[custom_lint] 2023-09-11T10:18:43.980332
+[custom_lint] 2023-09-11T10:18:52.104647 ../../../../Documents/nickdocs/projects/experiments/lint_mut_infect/lib/lint_mut_infect.dart:65:12: Warning: Operand of null-aware operation '?.' has type 'AstNode' which excludes null.
+[custom_lint] 2023-09-11T10:18:52.104647  - 'AstNode' is from 'package:analyzer/src/dart/ast/ast.dart' ('../../Pub/Cache/hosted/pub.dev/analyzer-6.2.0/lib/src/dart/ast/ast.dart').
+[custom_lint] 2023-09-11T10:18:52.104647     return node?.endToken;
+[custom_lint] 2023-09-11T10:18:52.104647            ^
+[custom_lint] 2023-09-11T10:18:52.104647
+[custom_lint] 2023-09-11T10:18:52.104647
+[custom_lint] 2023-09-11T10:18:56.000562 ../../../../Documents/nickdocs/projects/experiments/lint_mut_infect/lib/lint_mut_infect.dart:65:12: Warning: Operand of null-aware operation '?.' has type 'AstNode' which excludes null.
+[custom_lint] 2023-09-11T10:18:56.000562  - 'AstNode' is from 'package:analyzer/src/dart/ast/ast.dart' ('../../Pub/Cache/hosted/pub.dev/analyzer-6.2.0/lib/src/dart/ast/ast.dart').
+[custom_lint] 2023-09-11T10:18:56.000562     return node?.endToken;
+[custom_lint] 2023-09-11T10:18:56.000562            ^
+[custom_lint] 2023-09-11T10:18:56.000562
+[custom_lint] 2023-09-11T10:18:56.000562
+[custom_lint] 2023-09-11T10:18:59.284263 ../../../../Documents/nickdocs/projects/experiments/lint_mut_infect/lib/lint_mut_infect.dart:65:12: Warning: Operand of null-aware operation '?.' has type 'AstNode' which excludes null.
+[custom_lint] 2023-09-11T10:18:59.284263  - 'AstNode' is from 'package:analyzer/src/dart/ast/ast.dart' ('../../Pub/Cache/hosted/pub.dev/analyzer-6.2.0/lib/src/dart/ast/ast.dart').
+[custom_lint] 2023-09-11T10:18:59.284263     return node?.endToken;
+[custom_lint] 2023-09-11T10:18:59.284263            ^
+[custom_lint] 2023-09-11T10:18:59.284263
+[custom_lint] 2023-09-11T10:18:59.284263
+[custom_lint] 2023-09-11T10:18:59.284263
+[custom_lint] 2023-09-11T10:18:59.284263
+[custom_lint] 2023-09-11T10:19:01.974820 ../../../../Documents/nickdocs/projects/experiments/lint_mut_infect/lib/lint_mut_infect.dart:65:12: Warning: Operand of null-aware operation '?.' has type 'AstNode' which excludes null.
+[custom_lint] 2023-09-11T10:19:01.974820  - 'AstNode' is from 'package:analyzer/src/dart/ast/ast.dart' ('../../Pub/Cache/hosted/pub.dev/analyzer-6.2.0/lib/src/dart/ast/ast.dart').
+[custom_lint] 2023-09-11T10:19:01.974820     return node?.endToken;
+[custom_lint] 2023-09-11T10:19:01.974820            ^
+[custom_lint] 2023-09-11T10:19:01.974820
+[custom_lint] 2023-09-11T10:19:01.974820
+[custom_lint] 2023-09-11T10:19:01.974820
+[custom_lint] 2023-09-11T10:19:01.974820
+[custom_lint] 2023-09-11T10:19:05.729050 ../../../../Documents/nickdocs/projects/experiments/lint_mut_infect/lib/lint_mut_infect.dart:65:12: Warning: Operand of null-aware operation '?.' has type 'AstNode' which excludes null.
+[custom_lint] 2023-09-11T10:19:05.729050  - 'AstNode' is from 'package:analyzer/src/dart/ast/ast.dart' ('../../Pub/Cache/hosted/pub.dev/analyzer-6.2.0/lib/src/dart/ast/ast.dart').
+[custom_lint] 2023-09-11T10:19:05.729050     return node?.endToken;
+[custom_lint] 2023-09-11T10:19:05.729050            ^
+[custom_lint] 2023-09-11T10:19:05.729050
+[custom_lint] 2023-09-11T10:19:05.729050
+[custom_lint] 2023-09-11T10:19:05.729050
+[custom_lint] 2023-09-11T10:19:05.729050
+[custom_lint] 2023-09-11T10:19:15.017743 ../../../../Documents/nickdocs/projects/experiments/lint_mut_infect/lib/lint_mut_infect.dart:65:12: Warning: Operand of null-aware operation '?.' has type 'AstNode' which excludes null.
+[custom_lint] 2023-09-11T10:19:15.017743  - 'AstNode' is from 'package:analyzer/src/dart/ast/ast.dart' ('../../Pub/Cache/hosted/pub.dev/analyzer-6.2.0/lib/src/dart/ast/ast.dart').
+[custom_lint] 2023-09-11T10:19:15.017743     return node?.endToken;
+[custom_lint] 2023-09-11T10:19:15.017743            ^
+[custom_lint] 2023-09-11T10:19:15.017743
+[custom_lint] 2023-09-11T10:19:15.017743
+[custom_lint] 2023-09-11T10:19:18.339275 ../../../../Documents/nickdocs/projects/experiments/lint_mut_infect/lib/lint_mut_infect.dart:65:12: Warning: Operand of null-aware operation '?.' has type 'AstNode' which excludes null.
+[custom_lint] 2023-09-11T10:19:18.339275  - 'AstNode' is from 'package:analyzer/src/dart/ast/ast.dart' ('../../Pub/Cache/hosted/pub.dev/analyzer-6.2.0/lib/src/dart/ast/ast.dart').
+[custom_lint] 2023-09-11T10:19:18.339275     return node?.endToken;
+[custom_lint] 2023-09-11T10:19:18.339275            ^
+[custom_lint] 2023-09-11T10:19:18.339275
+[custom_lint] 2023-09-11T10:19:18.339275
+[custom_lint] 2023-09-11T10:19:25.530297 ../../../../Documents/nickdocs/projects/experiments/lint_mut_infect/lib/lint_mut_infect.dart:65:12: Warning: Operand of null-aware operation '?.' has type 'AstNode' which excludes null.
+[custom_lint] 2023-09-11T10:19:25.530297  - 'AstNode' is from 'package:analyzer/src/dart/ast/ast.dart' ('../../Pub/Cache/hosted/pub.dev/analyzer-6.2.0/lib/src/dart/ast/ast.dart').
+[custom_lint] 2023-09-11T10:19:25.530297     return node?.endToken;
+[custom_lint] 2023-09-11T10:19:25.530297            ^
+[custom_lint] 2023-09-11T10:19:25.530297
+[custom_lint] 2023-09-11T10:19:25.530297
+[custom_lint] 2023-09-11T10:19:27.637214 ../../../../Documents/nickdocs/projects/experiments/lint_mut_infect/lib/lint_mut_infect.dart:65:12: Warning: Operand of null-aware operation '?.' has type 'AstNode' which excludes null.
+[custom_lint] 2023-09-11T10:19:27.637214  - 'AstNode' is from 'package:analyzer/src/dart/ast/ast.dart' ('../../Pub/Cache/hosted/pub.dev/analyzer-6.2.0/lib/src/dart/ast/ast.dart').
+[custom_lint] 2023-09-11T10:19:27.637214     return node?.endToken;
+[custom_lint] 2023-09-11T10:19:27.637214            ^
+[custom_lint] 2023-09-11T10:19:27.637214
+[custom_lint] 2023-09-11T10:19:27.637214
+[custom_lint] 2023-09-11T10:19:27.637214
+[custom_lint] 2023-09-11T10:19:27.637214
+[custom_lint] 2023-09-11T10:19:29.163801 ../../../../Documents/nickdocs/projects/experiments/lint_mut_infect/lib/lint_mut_infect.dart:65:12: Warning: Operand of null-aware operation '?.' has type 'AstNode' which excludes null.
+[custom_lint] 2023-09-11T10:19:29.163801  - 'AstNode' is from 'package:analyzer/src/dart/ast/ast.dart' ('../../Pub/Cache/hosted/pub.dev/analyzer-6.2.0/lib/src/dart/ast/ast.dart').
+[custom_lint] 2023-09-11T10:19:29.163801     return node?.endToken;
+[custom_lint] 2023-09-11T10:19:29.163801            ^
+[custom_lint] 2023-09-11T10:19:29.163801
+[custom_lint] 2023-09-11T10:19:29.165810
+[custom_lint] 2023-09-11T10:19:29.165810
+[custom_lint] 2023-09-11T10:19:29.165810
+[custom_lint] 2023-09-11T10:19:31.994309 ../../../../Documents/nickdocs/projects/experiments/lint_mut_infect/lib/lint_mut_infect.dart:65:12: Warning: Operand of null-aware operation '?.' has type 'AstNode' which excludes null.
+[custom_lint] 2023-09-11T10:19:31.994309  - 'AstNode' is from 'package:analyzer/src/dart/ast/ast.dart' ('../../Pub/Cache/hosted/pub.dev/analyzer-6.2.0/lib/src/dart/ast/ast.dart').
+[custom_lint] 2023-09-11T10:19:31.994309     return node?.endToken;
+[custom_lint] 2023-09-11T10:19:31.994309            ^
+[custom_lint] 2023-09-11T10:19:31.994309
+[custom_lint] 2023-09-11T10:19:31.995307
+[custom_lint] 2023-09-11T10:19:31.995307
+[custom_lint] 2023-09-11T10:19:31.995307
+[custom_lint] 2023-09-11T10:19:34.315097 ../../../../Documents/nickdocs/projects/experiments/lint_mut_infect/lib/lint_mut_infect.dart:65:10: Warning: Operand of null-aware operation '?.' has type 'AstNode' which excludes null.
+[custom_lint] 2023-09-11T10:19:34.315097  - 'AstNode' is from 'package:analyzer/src/dart/ast/ast.dart' ('../../Pub/Cache/hosted/pub.dev/analyzer-6.2.0/lib/src/dart/ast/ast.dart').
+[custom_lint] 2023-09-11T10:19:34.315097     dt = node?.endToken;
+[custom_lint] 2023-09-11T10:19:34.315097          ^
+[custom_lint] 2023-09-11T10:19:34.315097
+[custom_lint] 2023-09-11T10:19:34.316094
+[custom_lint] 2023-09-11T10:19:34.316094
+[custom_lint] 2023-09-11T10:19:34.316094
+[custom_lint] 2023-09-11T10:19:36.190420 ../../../../Documents/nickdocs/projects/experiments/lint_mut_infect/lib/lint_mut_infect.dart:65:10: Warning: Operand of null-aware operation '?.' has type 'AstNode' which excludes null.
+[custom_lint] 2023-09-11T10:19:36.190420  - 'AstNode' is from 'package:analyzer/src/dart/ast/ast.dart' ('../../Pub/Cache/hosted/pub.dev/analyzer-6.2.0/lib/src/dart/ast/ast.dart').
+[custom_lint] 2023-09-11T10:19:36.190420     dt = node?.endToken;
+[custom_lint] 2023-09-11T10:19:36.190420          ^
+[custom_lint] 2023-09-11T10:19:36.190420
+[custom_lint] 2023-09-11T10:19:36.190420
+[custom_lint] 2023-09-11T10:19:36.190420
+[custom_lint] 2023-09-11T10:19:36.190420
+[custom_lint] 2023-09-11T10:19:37.769731 ../../../../Documents/nickdocs/projects/experiments/lint_mut_infect/lib/lint_mut_infect.dart:65:10: Warning: Operand of null-aware operation '?.' has type 'AstNode' which excludes null.
+[custom_lint] 2023-09-11T10:19:37.769731  - 'AstNode' is from 'package:analyzer/src/dart/ast/ast.dart' ('../../Pub/Cache/hosted/pub.dev/analyzer-6.2.0/lib/src/dart/ast/ast.dart').
+[custom_lint] 2023-09-11T10:19:37.769731     dt = node?.endToken;
+[custom_lint] 2023-09-11T10:19:37.769731          ^
+[custom_lint] 2023-09-11T10:19:37.769731
+[custom_lint] 2023-09-11T10:19:37.777265
+[custom_lint] 2023-09-11T10:19:37.777265
+[custom_lint] 2023-09-11T10:19:37.777265
+[custom_lint] 2023-09-11T10:19:40.116987 ../../../../Documents/nickdocs/projects/experiments/lint_mut_infect/lib/lint_mut_infect.dart:65:10: Warning: Operand of null-aware operation '?.' has type 'AstNode' which excludes null.
+[custom_lint] 2023-09-11T10:19:40.116987  - 'AstNode' is from 'package:analyzer/src/dart/ast/ast.dart' ('../../Pub/Cache/hosted/pub.dev/analyzer-6.2.0/lib/src/dart/ast/ast.dart').
+[custom_lint] 2023-09-11T10:19:40.116987     dt = node?.endToken;
+[custom_lint] 2023-09-11T10:19:40.116987          ^
+[custom_lint] 2023-09-11T10:19:40.116987
+[custom_lint] 2023-09-11T10:19:40.117988
+[custom_lint] 2023-09-11T10:19:40.117988
+[custom_lint] 2023-09-11T10:19:40.117988
+[custom_lint] 2023-09-11T10:19:42.115133 ../../../../Documents/nickdocs/projects/experiments/lint_mut_infect/lib/lint_mut_infect.dart:65:10: Warning: Operand of null-aware operation '?.' has type 'AstNode' which excludes null.
+[custom_lint] 2023-09-11T10:19:42.115133  - 'AstNode' is from 'package:analyzer/src/dart/ast/ast.dart' ('../../Pub/Cache/hosted/pub.dev/analyzer-6.2.0/lib/src/dart/ast/ast.dart').
+[custom_lint] 2023-09-11T10:19:42.115133     dt = node?.endToken;
+[custom_lint] 2023-09-11T10:19:42.115133          ^
+[custom_lint] 2023-09-11T10:19:42.115133
+[custom_lint] 2023-09-11T10:19:42.115133
+[custom_lint] 2023-09-11T10:19:43.987553 ../../../../Documents/nickdocs/projects/experiments/lint_mut_infect/lib/lint_mut_infect.dart:65:10: Warning: Operand of null-aware operation '?.' has type 'AstNode' which excludes null.
+[custom_lint] 2023-09-11T10:19:43.987553  - 'AstNode' is from 'package:analyzer/src/dart/ast/ast.dart' ('../../Pub/Cache/hosted/pub.dev/analyzer-6.2.0/lib/src/dart/ast/ast.dart').
+[custom_lint] 2023-09-11T10:19:43.987553     dt = node?.endToken;
+[custom_lint] 2023-09-11T10:19:43.987553          ^
+[custom_lint] 2023-09-11T10:19:43.987553
+[custom_lint] 2023-09-11T10:19:43.987553
+[custom_lint] 2023-09-11T10:19:46.116027 ../../../../Documents/nickdocs/projects/experiments/lint_mut_infect/lib/lint_mut_infect.dart:65:10: Warning: Operand of null-aware operation '?.' has type 'AstNode' which excludes null.
+[custom_lint] 2023-09-11T10:19:46.116027  - 'AstNode' is from 'package:analyzer/src/dart/ast/ast.dart' ('../../Pub/Cache/hosted/pub.dev/analyzer-6.2.0/lib/src/dart/ast/ast.dart').
+[custom_lint] 2023-09-11T10:19:46.116027     dt = node?.endToken;
+[custom_lint] 2023-09-11T10:19:46.116027          ^
+[custom_lint] 2023-09-11T10:19:46.116027
+[custom_lint] 2023-09-11T10:19:46.116027
+[custom_lint] 2023-09-11T10:19:46.116027
+[custom_lint] 2023-09-11T10:19:46.116027

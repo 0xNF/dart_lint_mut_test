@@ -31,6 +31,17 @@ class BagA {
   }
 }
 
+void dummyMut() {}
+
+// expect_lint: mut_infect
+void markThisDummy() {
+  dummyMut();
+}
+
+void dontMarkThisDummyMut() {
+  dummyMut();
+}
+
 // FYI(nf, 09/08/23): This should not be marked for any errors because it modifies nothing and calls no mut functions
 void isInconsequential() {}
 
@@ -140,40 +151,63 @@ void dontMarkThisToo3Mut(BagA bMut) {
     ..i = 2;
 }
 
-// expect_lint: mut_param
-void markThistoo3(int i, {required int i2}) {
+/* The following items won't be marked for MutParam because they are Dart primitive types, which are passed by value */
+void dontMarkRequiredPrimitiveInt(int i, {required int i2}) {
   i2 = 3;
 }
 
-void dontMarkThistoo3(int i, {required int i2Mut}) {
-  i2Mut = 3;
-}
-
-// expect_lint: mut_param
-void markThistoo4(int i, {int i2 = 45}) {
-  i2 = 4;
-}
-
-void dontMarkThistoo4(int i, {int i2Mut = 45}) {
-  i2Mut = 4;
-}
-
-// expect_lint: mut_param
-void markThistoo5(int i, [int i3 = 0]) {
+void dontMarkDefaultPrimitiveInt(int i, {int i3 = 45}) {
   i3 = 4;
 }
 
-void dontMarkThistoo5(int i, [int i3Mut = 0]) {
-  i3Mut = 4;
+void dontMarkPositionalPrimitiveInt(int i, [int i4 = 0]) {
+  i4 = 4;
 }
 
-void dummyMut() {}
-
-// expect_lint: mut_infect
-void markThisDummy() {
-  dummyMut();
+void dontMarkRequiredPrimitiveDouble(int i, {required double i5}) {
+  i5 = 5.0;
 }
 
-void dontMarkThisDummyMut() {
-  dummyMut();
+void dontMarkDefaultPrimitiveDouble(int i, {double i6 = 45.0}) {
+  i6 = 6.0;
+}
+
+void dontMarkPositionalPrimitiveDouble(int i, [double i7 = 0.0]) {
+  i7 = 7.0;
+}
+
+void dontMarkRequiredPrimitiveNum(int i, {required num i8}) {
+  i8 = 5.0;
+}
+
+void dontMarkDefaultPrimitiveNum(int i, {num i9 = 45.0}) {
+  i9 = 6.0;
+}
+
+void dontMarkPositionalPrimitiveNum(int i, [num i10 = 0.0]) {
+  i10 = 7.0;
+}
+
+void dontMarkRequiredPrimitiveBool(int i, {required bool bool0}) {
+  bool0 = false;
+}
+
+void dontMarkDefaultPrimitiveBool(int i, {bool bool1 = true}) {
+  bool1 = false;
+}
+
+void dontMarkPositionalPrimitiveBool(int i, [bool bool2 = true]) {
+  bool2 = false;
+}
+
+void dontMarkRequiredPrimitiveString(int i, {required String str0}) {
+  str0 = "ay";
+}
+
+void dontMarkDefaultPrimitiveString(int i, {String str1 = "abc"}) {
+  str1 = "lmao";
+}
+
+void dontMarkPositionalPrimitiveString(int i, [String str2 = "xyz"]) {
+  str2 = "lol";
 }
